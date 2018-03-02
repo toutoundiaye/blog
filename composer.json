@@ -1,0 +1,12 @@
+{
+    "name": "poei/blog",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pierre Bretéché",
+            "email": "pbreteche@dawan.fr"
+        }
+    ],
+    "require": {}
+}
