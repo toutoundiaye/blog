@@ -9,9 +9,9 @@
         }
     ],
     "autoload": {
-	    "psr-4": {
-		    "Poei\\blog\\": "src/"
-	    }
+        "psr-4": {
+            "Poei\\blog\\": "src/"
+        }
     },
     "require-dev": {
         "phpunit/phpunit": "^7.0"
