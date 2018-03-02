@@ -3,7 +3,6 @@
 
 namespace Poei\blog;
 
-
 class App
 {
     private $request;
@@ -40,7 +39,7 @@ class App
 
     public function run()
     {
-        if ($this->router->match($this->request)) {
+        if ($this->router->match($this->request->getUrl())) {
             call_user_func_array(
                 [$this->controller, $this->action],
                 $this->parameters);

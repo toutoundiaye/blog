@@ -1,6 +1,7 @@
 <?php
 
 use Poei\blog\App;
+use Poei\blog\Template;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
