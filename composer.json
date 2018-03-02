@@ -8,5 +8,10 @@
             "email": "pbreteche@dawan.fr"
         }
     ],
+    "autoload": {
+	    "psr-4": {
+		    "Poei\\blog\\": "src/"
+	    }
+    },
     "require": {}
 }
