@@ -15,7 +15,6 @@ class YamlConfigLoaderTest extends TestCase
 		$actual = $loader->load();
 		$expected = ["symfony"=>["PHP"=>5]];
 		$message = 'Conf loaded is equals to the file contents';
-		$this->assertEquals($expected,$actual,$message);
-
+		$this->assertEquals($expected, $actual, $message);
 	}
 }

@@ -10,7 +10,7 @@ use  Poei\blog\YamlConfigLoader\YamlConfigLoaderInterface;
 class YamlConfigLoader implements YamlConfigLoaderInterface
 {
 	private $fileName;
-	const pathFile = __DIR__.'/../../config/';
+	const PATHFILE = __DIR__.'/../../config/';
 
 	public function __construct($fileName)
 	{
@@ -23,10 +23,8 @@ class YamlConfigLoader implements YamlConfigLoaderInterface
 	 */
 	public function load()
 	{
-		return \yaml_parse_file(self::pathFile.$this->fileName);
+		return \yaml_parse_file(self::PATHFILE.$this->fileName);
 	}
 
 }
 
-
-?>
